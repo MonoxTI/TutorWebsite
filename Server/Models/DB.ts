@@ -26,3 +26,9 @@ const AppointmentDetailsSchema = new mongoose.Schema({
     invoiceNumber: {type: String, required: true},
     Note: {type: String, required: false}
 });
+
+export const UserModel = mongoose.model('User', UserSchema);
+export const AppointmentModel = mongoose.model('Appointment', AppointmentSchema);
+export const AppointmentDetailsModel = mongoose.model('AppointmentDetails', AppointmentDetailsSchema);
+
+export default {UserModel, AppointmentModel, AppointmentDetailsModel};
