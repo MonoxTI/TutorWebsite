@@ -1,5 +1,10 @@
 import express,{ Application } from "express";
-// import { UserRoutes } from "./UserRoutes";
+/*
+import { LoginUser} from ".";
+import { RegisterUser } from "../Controller/registerController";
+import { BookAppointment } from "../Controller/appointmentController";
+import { GetAppointments } from "../Controller/getAppointmentsController";
+*/
 
 const router = express.Router();
 
